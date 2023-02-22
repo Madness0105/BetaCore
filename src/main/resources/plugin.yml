@@ -1,0 +1,10 @@
+name: BetaCore
+version: '${project.version}'
+main: com.howiepvp.betacore.BetaCore
+commands:
+  spawn:
+    description: Teleports you to spawn.
+  fly:
+    aliases:
+      - flight
+    description: Enable / disable fly mode.
